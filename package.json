@@ -1,0 +1,33 @@
+{
+  "name": "chess-opening-tutor",
+  "version": "1.0.0",
+  "description": "Interactive chess opening learning platform built with React",
+  "main": "src/main.jsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .jsx,.js",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,css}\"",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "chess.js": "^1.4.0",
+    "react-chessboard": "^4.7.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^14.0.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^8.34.0",
+    "eslint-plugin-react": "^7.32.0",
+    "jsdom": "^21.1.0",
+    "prettier": "^2.8.4",
+    "vite": "^7.1.10",
+    "vitest": "^3.2.4"
+  },
+  "license": "MIT"
+}
